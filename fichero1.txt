@@ -1,2 +1,3 @@
 fichero 1 texto
 modificado
+modificado version 2
