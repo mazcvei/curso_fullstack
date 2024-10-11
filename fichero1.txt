@@ -1,4 +1,0 @@
-fichero 1 texto
-modificado
-modificado version 2 otra vez
-modificado desde ramabug
