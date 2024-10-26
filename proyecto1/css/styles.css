@@ -78,3 +78,31 @@ button{
 footer{
     background-color: #ff9a3c;
 }
+th{
+    background-color: #155263;
+    color:white;
+    padding: 5px;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+textarea{
+    resize: none;
+    max-width:400px;
+}
+button{
+    background-color: #e2a60e;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #dfb753;
+    box-shadow: 1px 1px 6px black;
+}
+.input-group{
+    display: flex;
+}
