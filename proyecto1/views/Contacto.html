@@ -5,107 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-   
   </head>
   <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a> 
-                </li>
-                <li>
-                    <a href="/curso_fullstack/proyecto1/views/Servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="/curso_fullstack/proyecto1/views/Contacto.html">Contacto </a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <section>
-                <h1>Contacto</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur possimus dolore accusantium delectus obcaecati provident optio necessitatibus nisi quisquam! Ullam itaque at nesciunt! Cumque error, porro adipisci unde enim repellat!</p>
-           
-            </section>
-          
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="/curso_fullstack/proyecto1/views/Servicios.html"
+            >Servicios</a
+          >
+        </li>
+        <li>
+          <a href="/curso_fullstack/proyecto1/views/Contacto.html">Contacto </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h1>Contacto</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+          possimus dolore accusantium delectus obcaecati provident optio
+          necessitatibus nisi quisquam! Ullam itaque at nesciunt! Cumque error,
+          porro adipisci unde enim repellat!
+        </p>
+      </section>
 
-        <h2>Contacto</h2>
-        <form method="POST" action="Servicios.html" enctype="multipart/form-data">
-            <label> Nombre </label> <br>
-            <input type="text" name="nombre" required placeholder="Introduce nombre"><br>
-            <label> Edad </label><br>
-            <input type="number" name="edad" min="0" max="50" step="0.1" value="18" required> <br>
-           <label> Email:</label><br>
-           <input type="email" name="email" autocomplete="off" placeholder="email@dominio.es">
-           <br>
-            <label> Contraseña </label><input type="password" name="password" ><br>
-            <label> Fichero </label><input type="file" name="fichero" ><br>
-            <br>
-            <label>Lenguajes de programacion: </label>
-            <div class="input-group">
-                <input type="radio" checked name="lenguaje" >
-                <label>PHP</label>
-            </div>
-            <div class="input-group" >
-                <input type="radio" name="lenguaje">
-                <label>JavaScript</label>
-            </div>
-            <br>
-            <label>Idiomas: </label>
-            <div class="input-group" >
-                <input type="checkbox" name="idiomas">
-                <label>Español</label>
-            </div>
-            <div class="input-group" >
-                <input type="checkbox" checked name="idiomas">
-                <label>Ingles</label>
-            </div>
-            <div class="input-group" >
-                <input type="checkbox" name="idiomas">
-                <label>Frances</label>
-            </div>
-            <br>
-            <div class="input-group" >
-                <label> Descripcion </label><br>
-                <textarea rows="5" cols="45" name="descripcion"></textarea>
-            </div>
-            <br>
-            <label>Pais: </label><br>
-            <select name="pais" multiple required>
-                <option value="esp">España</option>
-                <option value="esp">Francia</option>
-                <option value="ing">Inglaterra</option>
-            </select>
-            <br>
-            <label>Altura</label>
-            <input type="range" min="100" max="200" >
-            <br>
-            <label>
-                Fecha de nacimiento
-            </label> <br>
-            <input type="date" name="birthday" min="2020-01-01" max="2024-12-31">
-            <label>
-                Hora de nacimiento
-            </label> <br>
-            <input type="time" name="time" >
-            <br>
+      <h2>Contacto</h2>
+      <form method="POST" action="Servicios.html" enctype="multipart/form-data">
+        <label> Nombre </label> <br />
+        <input
+          type="text"
+          name="nombre"
+          required
+          placeholder="Introduce nombre"
+        /><br />
+        <label> Edad </label><br />
+        <input
+          type="number"
+          name="edad"
+          min="0"
+          max="50"
+          step="0.1"
+          value="18"
+          required
+        />
+        <br />
+        <label> Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          autocomplete="off"
+          placeholder="email_@dominio.es"
+          pattern="[a-z0-9._%+-]+@[a-z]+\.[a-z]{2,4}$"
+        />
+        <br /><br>
+        <label> Contraseña </label
+        ><input type="password" name="password" /><br /><br>
+        <label> Fichero </label><input type="file" name="fichero" /><br />
+        <br />
+        <label>Lenguajes de programacion: </label>
+        <div class="input-group">
+          <input type="radio" checked name="lenguaje" />
+          <label>PHP</label>
+        </div><br>
+        <div class="input-group">
+          <input type="radio" name="lenguaje" />
+          <label>JavaScript</label>
+        </div>
+        <br />
+        <label>Idiomas: </label>
+        <div class="input-group">
+          <input type="checkbox" name="idiomas" />
+          <label>Español</label>
+        </div>
+        <div class="input-group">
+          <input type="checkbox" checked name="idiomas" />
+          <label>Ingles</label>
+        </div>
+        <div class="input-group">
+          <input type="checkbox" name="idiomas" />
+          <label>Frances</label>
+        </div>
+        <br /><br>
+        <div>
+          <label> Descripción </label><br>
+          <textarea rows="5" name="descripcion"></textarea>
+        </div>
+        <br /><br>
+        <label>Pais: </label><br />
+        <select name="pais" multiple required>
+          <option value="esp">España</option>
+          <option value="esp">Francia</option>
+          <option value="ing">Inglaterra</option>
+        </select>
+        <br /><br>
+        <label>Altura</label>
+        <input type="range" min="100" max="200" /><br><br>
+        <br />
+        <label> Fecha de nacimiento </label> <br /><br>
+        <input type="date" name="birthday" min="2020-01-01" max="2024-12-31" /><br><br>
+        <label> Hora de nacimiento </label> <br />
+        <input type="time" name="time" />
+        <br /><br>
+        <label> Color </label> <br />
+        <input type="color" name="color" value="" />
+        <br /><br>
+        <label>Nivel bateria</label>
+        <meter min="0" max="100" value="50"></meter>
+        <br><br>
+        <label for="">Descarga progreso</label>
+        <progress max="100" value="70"></progress><br><br>
+        <button type="reset">Limpiar formulario</button>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
 
-            <label>
-                Color
-            </label> <br>
-            <input type="color" name="color" value="">
-            <br>
-            <button type="reset">Limpiar formulario</button>
-            <button type="submit">Enviar </button>
-
-            
-        </form>    
-
-        </main>
-       
-        <footer>
-
-        </footer>
-        <script src="/proyecto1/javascript/"> </script>
+    <footer></footer>
+    <script src="/proyecto1/javascript/"></script>
   </body>
 </html>
