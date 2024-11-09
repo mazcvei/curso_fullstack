@@ -26,3 +26,15 @@
     box-shadow: 1px 1px 2px black;
     border-radius: 5px;
 }
+.blue{
+    background-color: aqua;
+}
+.green{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
