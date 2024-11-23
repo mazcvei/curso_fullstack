@@ -27,3 +27,12 @@ nav {
     height: auto;
     align-items: start;
 }
+
+#carouselExample, .carousel-inner{
+    height: 45vh;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+}
