@@ -36,3 +36,18 @@ nav {
     object-fit: cover;
     object-position: center;
 }
+
+.carousel-control-prev-icon{
+    background-image: url("assets/arrow.png");
+    height: 4rem;
+    width: 4rem;
+    filter: drop-shadow(2px 2px 2px white);
+}
+
+.carousel-control-next-icon{
+    background-image: url("assets/arrowLeft.png");
+    height: 4rem;
+    width: 4rem;
+    filter: drop-shadow(2px 2px 2px white);
+
+}
