@@ -209,6 +209,15 @@ video{
     transform: scale(1.2);
 }
 
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para el centro exacto */
+    z-index: 10; /* Asegura que esté sobre la imagen */
+    color: #fff; /* Contraste con la imagen */
+}
+
 @media (width <= 768px) {
     article{
         display: block;

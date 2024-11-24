@@ -28,7 +28,7 @@ nav {
     align-items: start;
 }
 
-#carouselExample, .carousel-inner{
+#carouselExample, .carousel-inner,.carousel-item{
     height: 85vh;
 }
 
@@ -51,9 +51,15 @@ nav {
     filter: drop-shadow(2px 2px 2px white);
 
 }
-
+.carousel-caption h5,.carousel-caption p{
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+}
 @media (width <= 540px) {
-    #carouselExample, .carousel-inner{
+    #carouselExample, .carousel-inner, .carousel-item{
         height: 45vh;
     }
 }
