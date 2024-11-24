@@ -17,11 +17,9 @@ nav {
 }
 
 .img-about{
-    width: 40%;
-    height: auto;
-    display: flex;
-    float: left;
+    width: 100%; 
 }
+
 .logo {
     width: 80px;
     height: auto;
@@ -65,3 +63,22 @@ nav {
 }
 
 
+.seccion1{
+    margin-top: 50px!important;
+    padding: 15px;
+}
+
+.btn-primary{
+    border-radius: 50px;
+    background-color: darkgreen;
+    border-color: unset;
+    transition: 0,5s;
+
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: greenyellow;
+    border-color: unset!important;
+    
+}
