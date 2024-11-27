@@ -58,7 +58,10 @@ nav {
 }
 @media (width <= 540px) {
     #carouselExample, .carousel-inner, .carousel-item{
-        height: 45vh;
+        height: auto;
+    }
+    .carousel-caption p{
+        font-size: 15px;
     }
 }
 
@@ -67,6 +70,7 @@ nav {
     margin-top: 50px!important;
     padding: 15px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .sub_container{
@@ -90,4 +94,14 @@ nav {
     background-color: greenyellow;
     border-color: unset!important;
     
+}
+
+.progress{
+    height: 35px;
+    margin-bottom: 70px;
+}
+
+.section2{
+    background-color: rgb(233, 230, 230);
+    padding-top: 60px;
 }
