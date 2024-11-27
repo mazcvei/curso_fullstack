@@ -68,6 +68,10 @@ nav {
     padding: 15px;
 }
 
+.title{
+    font-weight: 800;
+}
+
 .btn-primary{
     border-radius: 50px;
     background-color: darkgreen;
