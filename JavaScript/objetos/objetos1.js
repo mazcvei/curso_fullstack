@@ -16,8 +16,10 @@ let persona = {
     }
 }
 console.log(persona.direccion.cp);
-console.log(persona.calculoIMC(1.70, 65));
+console.log(persona.calculoIMC(160,60));
 console.log(persona.direccion.geolocalizacion.long);
+Object.freeze(persona) //Objeto solo de lectura
 persona.apellidos = "Perez gonzalez";
 persona.edad = 25;
+
 console.log(persona)
